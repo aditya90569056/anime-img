@@ -39,4 +39,30 @@ html,body{
     color: white;
     font-size: 24px;
     font-weight: 400;
+
+}
+@media (max-width:720px){
+    #main {
+        height: 60vh; /* Reduce height for smaller screens */
+        background-size: cover; /* Make the image cover the container */
+    }
+
+    .content {
+        top: 30%; /* Move content a bit higher */
+        left: 0%; /* Reduce left offset */
+        width: 50%; /* Make it almost full width */
+        height: auto; /* Let height adjust automatically */
+        padding: 5%; /* Add more padding for readability */
+    }
+
+    .content > h2 {
+        font-size: 15px;
+        color: black; /* Smaller heading for small screens */
+    }
+
+    .content > h3 {
+        font-size: 10px; 
+        color: black;/* Smaller subheading */
+    }
+
 }
